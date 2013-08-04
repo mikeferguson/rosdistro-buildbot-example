@@ -14,11 +14,11 @@ notifications:
 targets:
   _config:
     apt_mirrors:
-    - http://localhost/ubuntu/
+    - file:///var/www/ubuntu/
     - http://packages.ros.org/ros/ubuntu/
     apt_keys:
     - http://packages.ros.org/ros.key
-    - http://localhost/public.key
+    - file:///var/www/public.key
   ubuntu:
     precise:
       amd64:
