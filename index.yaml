@@ -7,7 +7,7 @@ distributions:
     doc: groovy/doc.yaml
     doc_builds: [groovy/doc-build.yaml]
     release: groovy/release.yaml
-    release_builds: [groovy/release-build-ubuntu.yaml]
+    release_builds: [groovy/release-build.yaml]
     release_cache: http://localhost/rosdistro/groovy-cache.yaml.gz
     source: groovy/source.yaml
     source_builds: [groovy/source-build.yaml]
