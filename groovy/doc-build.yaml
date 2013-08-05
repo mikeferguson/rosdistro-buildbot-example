@@ -14,8 +14,9 @@ notifications:
 targets:
   _config:
     apt_mirrors:
-    - http://localhost/ubuntu/
-    - http://packages.ros.org/ros/ubuntu/
+    - http://archive.ubuntu.com/ubuntu DISTRO main universe
+    - http://localhost/ubuntu/ DISTRO main
+    - http://packages.ros.org/ros/ubuntu/ DISTRO main
     apt_keys:
     - http://packages.ros.org/ros.key
     - http://localhost/public.key
