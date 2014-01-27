@@ -1,15 +1,13 @@
 %YAML 1.1
 # ROS index file
-# see REP 137: http://ros.org/reps/rep-0137.html
+# see REP 141: http://ros.org/reps/rep-0141.html
 ---
 distributions:
   groovy:
-    doc: groovy/doc.yaml
+    distribution: groovy/distribution.yaml
+    distribution_cache: http://localhost/rosdistro/groovy-cache.yaml.gz
     doc_builds: [groovy/doc-build.yaml]
-    release: groovy/release.yaml
     release_builds: [groovy/release-build.yaml]
-    release_cache: http://localhost/rosdistro/groovy-cache.yaml.gz
-    source: groovy/source.yaml
     source_builds: [groovy/source-build.yaml]
 type: index
-version: 1
+version: 2

@@ -1,0 +1,32 @@
+%YAML 1.1
+# ROS distribution file
+# see REP 141: http://ros.org/reps/rep-0141.html
+---
+release_platforms:
+  ubuntu:
+  - precise
+repositories:
+  arbotix:
+    doc:
+      type: git
+      url: https://github.com/vanadiumlabs/arbotix_ros.git
+      version: groovy-devel
+    release:
+      packages:
+      - arbotix
+      - arbotix_controllers
+      - arbotix_firmware
+      - arbotix_msgs
+      - arbotix_python
+      - arbotix_sensors
+      tags:
+        release: release/groovy/{package}/{version}
+      url: https://github.com/mikeferguson/arbotix_ros-release.git
+      version: 0.8.2-0
+    source:
+      type: git
+      url: https://github.com/vanadiumlabs/arbotix_ros.git
+      version: groovy-devel
+    status: developed
+type: distribution
+version: 1
