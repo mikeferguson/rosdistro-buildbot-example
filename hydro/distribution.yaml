@@ -10,7 +10,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/vanadiumlabs/arbotix_ros.git
-      version: groovy-devel
+      version: hydro-devel
     release:
       packages:
       - arbotix
@@ -20,13 +20,13 @@ repositories:
       - arbotix_python
       - arbotix_sensors
       tags:
-        release: release/groovy/{package}/{version}
+        release: release/hydro/{package}/{version}
       url: https://github.com/mikeferguson/arbotix_ros-release.git
-      version: 0.8.2-0
+      version: 0.9.2-0
     source:
       type: git
       url: https://github.com/vanadiumlabs/arbotix_ros.git
-      version: groovy-devel
+      version: hydro-devel
     status: developed
 type: distribution
 version: 1
