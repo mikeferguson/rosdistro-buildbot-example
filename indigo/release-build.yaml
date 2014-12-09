@@ -16,7 +16,7 @@ targets:
     apt_keys:
     - http://packages.ros.org/ros.key
   ubuntu:
-    precise:
+    trusty:
       amd64:
 type: release-build
 version: 1
