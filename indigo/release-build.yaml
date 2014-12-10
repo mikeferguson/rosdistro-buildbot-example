@@ -11,8 +11,9 @@ targets:
   _config:
     apt_mirrors:
     - http://localhost/building/ubuntu DISTRO main
-    - http://archive.ubuntu.com/ubuntu DISTRO main universe
     - http://packages.ros.org/ros/ubuntu DISTRO main
+    - http://archive.ubuntu.com/ubuntu DISTRO main universe
+    - http://archive.ubuntu.com/ubuntu DISTRO-updates main universe
     apt_keys:
     - http://packages.ros.org/ros.key
   ubuntu:
